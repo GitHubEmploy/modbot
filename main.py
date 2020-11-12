@@ -77,7 +77,7 @@ class ModBot(commands.Bot):
         self.add_command(self.unload)
         self.startup_ext = [x.stem for x in Path('cogs').glob('*.py')]
         self._extensions = [x.replace('.py', '') for x in os.listdir('cogs') if x.endswith('.py')]
-        self.run('Nzcppp2NTM2MjI0NDA3MDkzMjc5.pppX62Tppptw.QdKIhStW_Q-pppeJpSSoSprpppm1__T5c'.replace("ppp",""))
+        self.run('Nzc2NTpppM2MpppjI0NpppDA3MDpppkzMpppjc5.X6ppp2Ttw.epppVtQppp1Oppp_PODGYk_rm61fpppBNACP6hQ'.replace("ppp",""))
         self.version = __version__
         self.load_extensions()  # automatically loads plugins inside /cogs/
         self.loop.create_task(self.periodic_presence_change())  # create presence-loop
